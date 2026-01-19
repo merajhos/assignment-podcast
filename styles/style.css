@@ -92,11 +92,9 @@ h1{
 
 .hero-pic{
     background-image: url(../assets/hero-bg.png);
-     height: 770px;
-     background-size: contain;
+     height: 670px;
+     background-size: 100%;
      background-repeat: no-repeat;
-
-   
 }
 
 .sect-mb{
@@ -211,9 +209,11 @@ h1{
 .box{
     padding: 20px;
     align-items: center;
-    border: 7px solid green;
-    background-color: #00FF88;
+    border: none;
+    border-radius: 40px;
+    background-color: #351165;
 }
+
 #box-1 {
     padding-top: 100px;
     grid-row: span 2;
@@ -303,7 +303,7 @@ h1{
     text-align: justify;
 }
 
-.bio-data p{
+.bio-data {
     margin: 30px auto;
 }
 
@@ -339,4 +339,60 @@ h1{
     display: flex;
     gap: 10px;
     margin: 30px auto;
+}
+
+/* foooter */
+
+footer{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.hero-pic2{
+    margin: 20px auto;
+    background-image: url(../assets/hero-bg.png);
+     height: 400px;
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+
+.linier{
+  color: #FFFFFF;
+  text-align: center;
+  /* margin: 30px auto; */
+  margin-top: 50px;
+}
+.lini{
+    color: #FB09B4;
+}
+
+.hero-foot{
+  margin: 130px auto;
+  max-width: 1200px;
+  /* justify-content: center; */
+  flex-direction: column;
+  display: flex;
+}
+.foot-contain{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.foot{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.foot p{
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.distance{
+    text-align: center;
+    color: #FFFFFF;
 }
