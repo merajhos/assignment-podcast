@@ -23,6 +23,9 @@ nav{
   justify-content: space-between;
    margin: 20px 60px;
   padding: 10px 10px;
+   padding-bottom: 50px;
+  border-bottom: 1px solid white;
+  opacity: 80%;
     
 }
 nav li {
@@ -464,7 +467,7 @@ footer{
     font-size: 15px;
     font-weight: 500;
     color: #FFFFFF;
-    opacity: 50%;
+    opacity: 80%;
 }
 .distance{
     text-align: center;
