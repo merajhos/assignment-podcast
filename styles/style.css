@@ -60,6 +60,7 @@ h1{
     margin: 20px auto;
     color: #FFFFFF;
     max-width: 570px;
+    opacity: 50%;
 }
 .parent-tech, .tech-p{
     max-width: 550px;
@@ -68,7 +69,6 @@ h1{
   padding: 12px 16px;
   border: none;
   color: white;
-  /* height: 44px; */
   max-width: 200px;
   gap: 5px;
   background-image: linear-gradient(21deg, #F7E93F, #FB09B4, #9100F8);
@@ -77,6 +77,22 @@ h1{
   font-weight: 600;
   align-items: center;
   display: flex;
+}
+.btn-sb{
+     padding: 12px 16px;
+  border: none;
+  color: white;
+  max-width: 200px;
+  gap: 5px;
+  background-image: linear-gradient(21deg, #F7E93F, #FB09B4, #9100F8);
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+}
+.menu{
+    display: none;
 }
 
 .btn-2{
@@ -164,6 +180,7 @@ h1{
     font-size: 16px;
     font-weight: 400;
    margin-top: 16px;
+   opacity: 50%;
 
 }
 .about h3{
@@ -197,6 +214,7 @@ h1{
     font-size: 16px;
     font-weight: 400;
     color: #FFFFFF;
+    opacity: 50%;
 }
 
 
@@ -216,6 +234,21 @@ h1{
     border: none;
     border-radius: 40px;
     background-color: #351165;
+}
+
+.font-h{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px auto;
+    color: #FFFFFF;
+}
+
+.font-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px auto;
+    color: #FFFFFF;
+    opacity: 50%;
 }
 
 #box-1 {
@@ -261,7 +294,14 @@ h1{
 .feature-contain{
     max-width: 1200px;
     margin: 120px auto;
+    
+}
+
+.feature-contain h2{
     text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .feature-episode{
@@ -274,10 +314,21 @@ h1{
 .episode{
     margin: 30px auto;
     max-width: 350px;
-    gap: ;
+    border-radius: 10px;
    display: flex;
    flex-direction: column;
    background-color: #351165;
+}
+.episode h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.episode p{
+    color: #FFFFFF;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .clock{
@@ -318,6 +369,10 @@ h1{
 
 .bio-data {
     margin: 30px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 50%;
 }
 
 
@@ -327,9 +382,13 @@ h1{
 .the{
     text-align: center;
     margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
 }
 .alex{
     margin: 30px auto;
+    font-size: 32px;
+    font-weight: 700;
 }
 .img-move{
     margin: 12px auto;
@@ -405,8 +464,12 @@ footer{
     font-size: 15px;
     font-weight: 500;
     color: #FFFFFF;
+    opacity: 50%;
 }
 .distance{
     text-align: center;
     color: #FFFFFF;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 400;
 }
